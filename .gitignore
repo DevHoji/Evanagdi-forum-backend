@@ -27,3 +27,4 @@ yarn.lock
 # Ignore any other files you don't want tracked
 *.bak   # Backup files
 *.tmp   # Temporary files
+nodemon.json

@@ -1,10 +1,10 @@
 const mysql2 = require("mysql2");
 
 const dbConnection = mysql2.createPool({
-  user: "hojiwak-admin",
-  database: "hojiwak-db",
+  user: process.env.USER,
+  database: process.env.DATABASE,
   host: "localhost", // Correct casing
-  password: "123456",
+  password: process.env.PASSWORD,
   connectionLimit: 10,
 });
 
